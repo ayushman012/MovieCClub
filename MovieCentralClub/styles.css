@@ -1,0 +1,157 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+    background: #222;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Header and Sections */
+header {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #243b55, #141e30);
+    color: white;
+}
+
+section {
+    margin: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #f9ca24;
+}
+
+.movie-posters img, .character-bios img {
+    width: 400px;
+    height: auto;
+    margin-right: 10px;
+    border-radius:20px;
+}
+
+.posters, .character-bios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    margin: 10px;
+    border: 3px solid #f9ca24;
+    border-radius: 50px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.movie-trailers iframe {
+    margin: 10px auto;
+    margin-left: 100px;
+    display:inline-block ;
+    border-radius: 30px;
+}
+
+/* Quote of the Day */
+.quote-of-the-day {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+/* Trivia Quiz */
+.trivia-quiz {
+    background-color: #2f3640;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#quiz-container {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f9ca24;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e1b12c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: #f9ca24;
+}
+
+.character-card img{
+width: 200px;
+}
+
+.character-card h3{
+    color: #e1b12c;
+}
+
+h1{
+    color: #e1b12c;
+}
+
+h1:hover{
+    color: aqua;
+}

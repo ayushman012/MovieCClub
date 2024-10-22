@@ -1,0 +1,111 @@
+<!-- 
+  Author: Ayushman Tripathy
+  Date of Creation: 9th Oct 2024
+  Description: MoviesCentralClub - A Harry’s Ciphered WebPage
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoviesCentralClub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bios">Character Bios</a></li>
+            <li><a href="#trailers">Movie Trailers</a></li>
+            <li><a href="#quote">Quote of the Day</a></li>
+            <li><a href="#quiz">Trivia Quiz</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page Section -->
+    <header id="home">
+        <h1>Welcome to MCCentral</h1>
+        <p>Your Ultimate Hub for Movie Fans!</p>
+    </header>
+
+    <!-- Movie Posters -->
+    <section class="movie-posters">
+        <h2>Featured Movies</h2>
+        <div class="posters">
+            <img src="images/Harry-Potter-Movies-in-Order.jpg" alt="Movie 1 Poster">
+            <img src="images/harry potter.jpg" alt="Movie 2 Poster">
+            <img src="images/harry2.jpeg" alt="Movie 3 Poster">
+        </div>
+    </section>
+
+    <!-- Character Bios Section -->
+    <section id="bios" class="character-bios">
+        <h2>Character Bios</h2>
+        <div class="character-card">
+            <img src="images/characterharry.jpg" alt="Character 1">
+            <h3>Harry Potter</h3>
+            <p>The Boy Who Lived, Destined to defeat Voldemort. Raised by Muggles, finds true family at Hogwarts.</p>
+            <ul>
+                <li>Wand: Holly, Phoenix Feather</li>
+                <li>Speaks Parseltongue</li>
+                <li>Youngest Quidditch Seeker in a Century!</li>
+                <li>Values Friendship Over Fame</li>
+            </ul>
+            
+        </div>
+        <div class="character-card">
+            <img src="images/characterHermione Granger.jpg" alt="Character 2">
+            <h3>Hermione Granger</h3>
+      <p>Brilliant Witch, Top of her class at Hogwarts, & Harry’s best friend.
+	  Known for her Quick Thinking & Bravery.</p>
+      <ul>
+        <li>Her wand: Vine Wood, Dragon heartstringS</li>
+        <li>Her Favorite Subject: Arithmancy</li>
+        <li>Founded S.P.E.W. (advocating for house elves)</li>
+        <li>Once used a Time-Turner to attend extra classes!</li>
+     </ul>
+        </div>
+    </section>
+
+    <!-- Embedded Movie Trailers -->
+    <section id="trailers" class="movie-trailers">
+        <h2>Watch Trailers</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LLAaW1EgyY8?si=wtYy34slPSf0IgeG&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VyHV0BRtdxo?si=HSncM3_VS8sqFuzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Old Version Harry Potter</iframe>
+    </section>
+
+    <!-- Quote of the Day -->
+    <section id="quote" class="quote-of-the-day">
+        <h2>Quote of the Day</h2>
+        <p id="quote-text"></p>
+    </section>
+
+    <!-- Trivia Quiz -->
+    <section id="quiz" class="trivia-quiz">
+        <h2>Trivia Quiz</h2>
+        <div id="quiz-container">
+            <p id="question"></p>
+            <ul id="choices">
+                <!-- Choices will be injected here by JavaScript -->
+            </ul>
+            <button onclick="nextQuestion()">Next Question</button>
+        </div>
+    </section>
+	
+	<footer class="custom-footer">
+            <p class="footer-text">Made by a DieHard Harry Potter Fan❤️, Coder__Alphayush</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/ayushman-tripathy-7bb149295/" target="_blank">LinkedIn</a>
+                <a href="https://instagram.com/regd.ayushman" target="_blank">Instagram</a>
+                <a href="https://github.com/ayushman012" target="_blank">GitHub</a>
+            </div>
+            <div class="footer-source">
+                <a href="https://github.com/ayushman012/MovieCClub" target="_blank">Source Code</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
